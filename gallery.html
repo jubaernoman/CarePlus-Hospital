@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | CarePlus Hospital</title>
+    <meta name="description" content="Browse our hospital gallery with images of our care facilities and patient-focused spaces.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-hospital"></i>
+                    <div class="logo-text">
+                        <h2>Care<span>Plus</span></h2>
+                        <p>Hospital</p>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="site-menu" aria-label="Primary navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation">☰</button>
+                <a href="contact.html" class="appointment-btn">Book Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+    <section class="internal-hero" aria-labelledby="gallery-title">
+        <div class="container">
+            <div class="internal-hero__content">
+                <span class="internal-hero__eyebrow">Visit</span>
+                <h1 id="gallery-title">Gallery</h1>
+                <p>From treatment spaces to patient comfort areas, our facilities are designed for comfort, care, and confidence.</p>
+                <nav class="internal-breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Gallery</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-subtitle">VISIT US</span>
+                <h2>Hospital Spaces Designed For Healing</h2>
+            </div>
+            <div class="gallery-grid">
+                <article class="gallery-card">
+                    <img src="images/hero/hospital-banner.jpg" alt="CarePlus hospital exterior">
+                    <div class="gallery-caption">
+                        <h3>Modern Hospital Exterior</h3>
+                        <p>Welcoming, accessible, and built for patient comfort.</p>
+                    </div>
+                </article>
+                <article class="gallery-card">
+                    <img src="images/hero/hospital-banner.jpg" alt="Patient waiting area">
+                    <div class="gallery-caption">
+                        <h3>Comfortable Waiting Area</h3>
+                        <p>Thoughtfully designed spaces for calm and reassurance.</p>
+                    </div>
+                </article>
+                <article class="gallery-card">
+                    <img src="images/hero/hospital-banner.jpg" alt="Specialist consultation room">
+                    <div class="gallery-caption">
+                        <h3>Consultation Rooms</h3>
+                        <p>Private care spaces for examinations and specialist visits.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" aria-label="Image preview">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close" aria-label="Close preview">×</button>
+            <img id="lightbox-img" src="" alt="">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+        </div>
+    </div>
+
+    <section class="cta">
+        <div class="container cta-content">
+            <div>
+                <span class="section-subtitle">PLAN YOUR VISIT</span>
+                <h2>Visit Our Facilities</h2>
+                <p>Explore our hospital spaces and feel confident about the care experience you can expect.</p>
+            </div>
+            <a href="contact.html" class="btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo">
+                    <i class="fas fa-hospital"></i>
+                    <div class="logo-text">
+                        <h2>Care<span>Plus</span></h2>
+                        <p>Hospital</p>
+                    </div>
+                </a>
+                <p>Caring for Life, Every Step of the Way.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p><i class="fas fa-location-dot"></i> 123 Health Street, Sydney NSW</p>
+                <p><i class="fas fa-phone"></i> +61 2 9000 1234</p>
+                <p><i class="fas fa-envelope"></i> info@careplushospital.com</p>
+            </div>
+            <div>
+                <h3>Opening Hours</h3>
+                <p>Mon - Sun: 24 Hours</p>
+                <p>Emergency: Open All Day</p>
+                <p>Reception: 7:00 AM - 10:00 PM</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 CarePlus Hospital. All Rights Reserved.</p>
+            <a href="#top" class="back-to-top">Back to Top ↑</a>
+        </div>
+    </footer>
+    </main>
+    <button id="scrollTopBtn" aria-label="Back to top">↑</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
