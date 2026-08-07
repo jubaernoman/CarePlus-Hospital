@@ -864,6 +864,9 @@ body.no-scroll{
 
     transition:.35s;
 
+    display:flex;
+    flex-direction:column;
+
 }
 
 .doctor-card:hover{
@@ -872,19 +875,27 @@ body.no-scroll{
 
 }
 
-.doctor-card img{
+.doctor-avatar{
 
-    height:350px;
-
-    object-fit:cover;
+    width:90px;
+    height:90px;
+    margin:32px auto 8px;
+    border-radius:50%;
+    background:#eef6ff;
+    color:var(--primary);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    box-shadow:inset 0 0 0 1px rgba(10,102,194,.08);
 
 }
 
 .doctor-info{
 
-    padding:30px;
-
+    padding:20px 30px 30px;
     text-align:center;
+    flex:1;
 
 }
 
@@ -1030,12 +1041,17 @@ body.no-scroll{
 
 }
 
-.testimonial-card img{
+.testimonial-avatar{
 
     width:80px;
     height:80px;
     border-radius:50%;
-    object-fit:cover;
+    background:#eef6ff;
+    color:var(--primary);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
     margin-bottom:20px;
 
 }
